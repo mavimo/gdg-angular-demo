@@ -1,0 +1,11 @@
+#!/bin/bash
+
+BASE_DIR=`dirname $0`
+export PHANTOMJS_BIN=/opt/phantomjs-1.9.0/bin/phantomjs
+export CHROME_BIN=/usr/bin/google-chrome
+
+echo ""
+echo "Starting Karma Server (http://karma-runner.github.io/)"
+echo "-------------------------------------------------------------------"
+
+karma start $BASE_DIR/../config/karma.conf.js $*
