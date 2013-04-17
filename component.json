@@ -1,0 +1,15 @@
+{
+  "name": "gdg-demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.0.6",
+    "json3": "~3.2.4",
+    "es5-shim": "~2.0.5",
+    "angular-resource": "~1.0.6",
+    "normalize-css": "~2.1.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.0.6",
+    "angular-scenario": "~1.0.6"
+  }
+}
