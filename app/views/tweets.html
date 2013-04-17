@@ -1,0 +1,6 @@
+<ul>
+  <li ng-repeat="tweet in tweets">
+    <a href="http://twitter.com/{{ tweet.from_user }}"><img ng-src="{{ tweet.profile_image_url }}" /></a>
+    <strong><a href="#/tweets/{{ tweet.id }}">{{ tweet.text }}</a></strong>
+  </li>
+<ul>

@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,500,500italic,200,200italic,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700);
+
+* {
+  font-family: 'Titillium Web',Helvetica,Arial,sans-serif;
+  color: rgb(141,141,141);
+}
+
+::-moz-selection{
+  color:#fff;
+  background:#00aec8;
+  text-shadow:none;
+}
+
+::selection{
+  color:#fff;
+  background:#00aec8;
+  text-shadow:none;
+}
+
+a,
+a:hover,
+a:visited,
+a:link {
+  -webkit-transition:all .3s ease-in;
+  -moz-transition:all .3s ease-in;
+  -ms-transition:all .3s ease-in;
+  -o-transition:all .3s ease-in;
+  transition:all .3s ease-in
+  text-decoration:none;
+  color:#585858
+}
+
+html{
+  -webkit-text-size-adjust:none
+}
+
+body{
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:100%;
+  background:#fff;
+  background-color: #fbfbfb;
+}
+
+code {
+  font-family: 'Courier', mono-spaced;
+}
