@@ -25,4 +25,4 @@ angular.module('gdg.controllers.tweets', [])
       .error(function (data) {
         console.log('errore');
       });
-  }])
+  }]);
